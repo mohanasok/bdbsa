@@ -1020,12 +1020,11 @@
   	gap: 4px;
 }
 .text35 {
-  	width: 311px;
   	position: relative;
   	line-height: 20px;
   	font-weight: 600;
-  	display: inline-block;
-  	flex-shrink: 0;
+  	flex: 1;
+  	word-wrap: break-word;
 }
 .text-wrap {
   	align-self: stretch;
@@ -1033,7 +1032,8 @@
   	flex-direction: row;
   	align-items: flex-start;
   	justify-content: flex-start;
-  	padding: 0px 32px 0px 0px;
+  	padding: 0px 8px 0px 0px;
+  	min-width: 0;
 }
 .supporting-text8 {
   	align-self: stretch;
@@ -1050,6 +1050,8 @@
   	justify-content: flex-start;
   	gap: 2px;
   	z-index: 0;
+  	min-width: 0;
+  	overflow: hidden;
 }
 .buttonsbutton-close-x {
   	width: 36px;
@@ -1077,6 +1079,7 @@
   	justify-content: flex-start;
   	position: relative;
   	gap: 16px;
+  	min-width: 0;
 }
 .buttonsbutton1 {
   	overflow: hidden;
@@ -1183,6 +1186,7 @@
   	border: 1px solid #e9eaeb;
   	box-sizing: border-box;
   	overflow-y: auto;
+  	overflow-x: hidden;
   	flex-shrink: 0;
   	display: flex;
   	flex-direction: column;
