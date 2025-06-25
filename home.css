@@ -1646,7 +1646,7 @@
 }
 .body {
   	flex: 1;
-  	height: 1117px;
+  	height: 100%;
   	overflow-y: auto;
   	display: flex;
   	flex-direction: column;
@@ -1659,7 +1659,7 @@
   	width: 100%;
   	position: relative;
   	background-color: #f7f7f3;
-  	height: 1117px;
+  	height: 100%;
   	overflow: hidden;
   	display: flex;
   	flex-direction: row;
@@ -1675,5 +1675,6 @@
 body {
   	margin: 0;
   	line-height: normal;
+	
 }
 
