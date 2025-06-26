@@ -4,7 +4,7 @@
   	<meta charset="utf-8">
   	<meta name="viewport" content="initial-scale=1, width=device-width">
   	
-  	<link rel="stylesheet"  href="./Style.css" />
+  	<link rel="stylesheet"  href="./singleRecord.css" />
   	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" />
   	
   	
@@ -18,7 +18,7 @@
         				<div class="navigation">
           					<div class="header">
             						<div class="logo">
-              							<img class="image-2-icon" alt="" src="logo.png">
+              							<img class="image-2-icon" alt="" src="./Images/logo.png">
               							
             						</div>
           					</div>
@@ -27,9 +27,20 @@
               							<div class="nav-item-base">
                 								<div class="content1">
                   									<div class="text-and-icon">
-                    										<img class="icon-wrapper" alt="" src="Icon wrapper.svg">
+                    										<img class="icon-wrapper" alt="" src="./Images/Icon wrapper.svg">
                     										
-                    										<div class="text">Home</div>
+                    										<div class="text" onclick="window.location.href='home.html'">Home</div>
+                  									</div>
+                								</div>
+              							</div>
+            						</div>
+            						<div class="logo">
+              							<div class="nav-item-base">
+                								<div class="content1 active">
+                  									<div class="text-and-icon">
+                    										<img class="icon-wrapper" alt="" src="./Images/Icon wrapper_2.svg">
+                    										
+                    										<div class="text" onclick="window.location.href='SingleRecord.html'">Species Records</div>
                   									</div>
                 								</div>
               							</div>
@@ -38,20 +49,9 @@
               							<div class="nav-item-base">
                 								<div class="content1">
                   									<div class="text-and-icon">
-                    										<img class="icon-wrapper" alt="" src="Icon wrapper.svg">
+                    										<img class="icon-wrapper" alt="" src="./Images/pie icon.svg">
                     										
-                    										<div class="text">Species Records</div>
-                  									</div>
-                								</div>
-              							</div>
-            						</div>
-            						<div class="logo">
-              							<div class="nav-item-base">
-                								<div class="content1">
-                  									<div class="text-and-icon">
-                    										<img class="icon-wrapper" alt="" src="Icon wrapper.svg">
-                    										
-                    										<div class="text">Reporting</div>
+                    										<div class="text" onclick="window.location.href='reports.html'">Reports</div>
                   									</div>
                 								</div>
               							</div>
@@ -63,9 +63,9 @@
               							<div class="nav-item-base">
                 								<div class="content1">
                   									<div class="text-and-icon">
-                    										<img class="icon-wrapper" alt="" src="Icon wrapper.svg">
+                    										<img class="icon-wrapper" alt="" src="./Images/add species icon.png">
                     										
-                    										<div class="text">Add a Species Record</div>
+                    										<div class="text" onclick="window.location.href='templates.html'">Add a Species Record</div>
                   									</div>
                 								</div>
               							</div>
@@ -77,7 +77,7 @@
             						<div class="nav-item-base4">
               							<div class="content1">
                 								<div class="text-and-icon">
-                  									<img class="icon-wrapper" alt="" src="Icon wrapper.svg">
+                  									<img class="icon-wrapper" alt="" src="./Images/settings-01.svg">
                   									
                   									<div class="text">Settings</div>
                 								</div>
@@ -86,7 +86,7 @@
             						<div class="nav-item-base4">
               							<div class="content6">
                 								<div class="text-and-icon">
-                  									<img class="icon-wrapper" alt="" src="Icon wrapper.svg">
+                  									<img class="icon-wrapper" alt="" src="./Images/support icon.svg">
                   									
                   									<div class="text">Support</div>
                 								</div>
@@ -102,11 +102,11 @@
             						<div class="nav-item-base4">
               							<div class="content6">
                 								<div class="text-and-icon">
-                  									<img class="icon-wrapper" alt="" src="Icon wrapper.svg">
+                  									<img class="icon-wrapper" alt="" src="./Images/openInBrowser.svg">
                   									
                   									<div class="text">Open in browser</div>
                 								</div>
-                								<img class="share-04-icon" alt="" src="share-04.svg">
+                								<img class="share-04-icon" alt="" src="./Images/share-04.svg">
                 								
               							</div>
             						</div>
@@ -127,13 +127,14 @@
           					<div class="avatar">
             						<div class="contrast-border">
             						</div>
-            						<img class="bell-02-icon" alt="" src="bell-02.svg">
+            						<img class="bell-02-icon" alt="" src="./Images/bell-02.svg">
             						
             						<div class="avatar-online-indicator">
             						</div>
           					</div>
           					<div class="avatar1">
             						<div class="contrast-border">
+										<img  alt="" src="./Images/Avatar.svg" onclick="window.location.href='SignIn.html'">
             						</div>
           					</div>
         				</div>
@@ -142,7 +143,7 @@
         				<div class="header-section1">
           					<div class="buttonsbutton-parent">
             						<div class="buttonsbutton">
-              							<img class="arrow-left-icon" alt="" src="arrow-left.svg">
+              							<img class="arrow-left-icon" alt="" src="./Images/arrow-left.svg">
               							
               							<div class="text9">Back to Records</div>
             						</div>
@@ -179,7 +180,7 @@
           					</div>
           					<div class="buttonsbutton-wrapper">
             						<div class="buttonsbutton1">
-              							<img class="arrow-left-icon" alt="" src="edit-05.svg">
+              							<img class="arrow-left-icon" alt="" src="./Images/edit-05.svg">
               							
               							<div class="text-padding">
                 								<div class="text9">Edit</div>
@@ -188,7 +189,7 @@
           					</div>
           					<div class="buttonsbutton-wrapper">
             						<div class="buttonsbutton1">
-              							<img class="arrow-left-icon" alt="" src="printer.svg">
+              							<img class="arrow-left-icon" alt="" src="./Images/printer.svg">
               							
               							<div class="text-padding">
                 								<div class="text9">Print</div>
@@ -197,7 +198,7 @@
           					</div>
           					<div class="buttonsbutton-wrapper">
             						<div class="buttonsbutton1">
-              							<img class="arrow-left-icon" alt="" src="share-02.svg">
+              							<img class="arrow-left-icon" alt="" src="./Images/share-02.svg">
               							
               							<div class="text-padding">
                 								<div class="text9">Export</div>
@@ -206,7 +207,7 @@
           					</div>
           					<div class="frame-div">
             						<div class="buttonsbutton4">
-              							<img class="arrow-left-icon" alt="" src="trash-01.svg">
+              							<img class="arrow-left-icon" alt="" src="./Images/trash-01.svg">
               							
               							<div class="text-padding">
                 								<div class="text9">Delete</div>
@@ -222,32 +223,32 @@
           					<div class="breadcrumb-button-base1">
             						<div class="text11">Animalia</div>
           					</div>
-          					<img class="arrow-left-icon" alt="" src="slash-divider.svg">
+          					<img class="arrow-left-icon" alt="" src="./Images/slash-divider.svg">
           					
           					<div class="breadcrumb-button-base1">
             						<div class="text11">Chordata</div>
           					</div>
-          					<img class="arrow-left-icon" alt="" src="slash-divider.svg">
+          					<img class="arrow-left-icon" alt="" src="./Images/slash-divider.svg">
           					
           					<div class="breadcrumb-button-base1">
             						<div class="text11">Aves</div>
           					</div>
-          					<img class="arrow-left-icon" alt="" src="slash-divider.svg">
+          					<img class="arrow-left-icon" alt="" src="./Images/slash-divider.svg">
           					
           					<div class="breadcrumb-button-base1">
             						<div class="text11">Pelecaniformes</div>
           					</div>
-          					<img class="arrow-left-icon" alt="" src="slash-divider.svg">
+          					<img class="arrow-left-icon" alt="" src="./Images/slash-divider.svg">
           					
           					<div class="breadcrumb-button-base1">
             						<div class="text11">Pelecanidae</div>
           					</div>
-          					<img class="arrow-left-icon" alt="" src="slash-divider.svg">
+          					<img class="arrow-left-icon" alt="" src="./Images/slash-divider.svg">
           					
           					<div class="breadcrumb-button-base1">
             						<div class="text11">Pelecanus</div>
           					</div>
-          					<img class="arrow-left-icon" alt="" src="slash-divider.svg">
+          					<img class="arrow-left-icon" alt="" src="./Images/slash-divider.svg">
           					
           					<div class="breadcrumb-button-base7">
           					</div>
@@ -292,11 +293,11 @@
                           													</div>
                         												</div>
                         												<div class="buttonsbutton-wrapper">
-                          													<img class="arrow-left-icon" alt="" src="dots-vertical.svg">
+                          													<img class="arrow-left-icon" alt="" src="./Images/Dropdown.svg">
                           													
                         												</div>
                       											</div>
-                      											<img class="divider-icon" alt="" src="Divider.svg">
+                      											<img class="divider-icon" alt="" src="./Images/Divider.svg">
                       											
                     										</div>
                     										<div class="container2">
@@ -370,11 +371,11 @@
                           													</div>
                         												</div>
                         												<div class="buttonsbutton-wrapper">
-                          													<img class="arrow-left-icon" alt="" src="dots-vertical.svg">
+                          													<img class="arrow-left-icon" alt="" src="./Images/Dropdown.svg">
                           													
                         												</div>
                       											</div>
-                      											<img class="divider-icon" alt="" src="Divider.svg">
+                      											<img class="divider-icon" alt="" src="./Images/Divider.svg">
                       											
                     										</div>
                     										<div class="container3">
@@ -423,11 +424,11 @@
                           													</div>
                         												</div>
                         												<div class="buttonsbutton-wrapper">
-                          													<img class="arrow-left-icon" alt="" src="dots-vertical.svg">
+                          													<img class="arrow-left-icon" alt="" src="./Images/Dropdown.svg">
                           													
                         												</div>
                       											</div>
-                      											<img class="divider-icon" alt="" src="Divider.svg">
+                      											<img class="divider-icon" alt="" src="./Images/Divider.svg">
                       											
                     										</div>
                     										<div class="container2">
@@ -486,11 +487,11 @@
                           													</div>
                         												</div>
                         												<div class="buttonsbutton-wrapper">
-                          													<img class="arrow-left-icon" alt="" src="dots-vertical.svg">
+                          													<img class="arrow-left-icon" alt="" src="./Images/Dropdown.svg">
                           													
                         												</div>
                       											</div>
-                      											<img class="divider-icon" alt="" src="Divider.svg">
+                      											<img class="divider-icon" alt="" src="./Images/Divider.svg">
                       											
                     										</div>
                     										<div class="container2">
@@ -555,11 +556,11 @@
                           													</div>
                         												</div>
                         												<div class="buttonsbutton-wrapper">
-                          													<img class="arrow-left-icon" alt="" src="dots-vertical.svg">
+                          													<img class="arrow-left-icon" alt="" src="./Images/Dropdown.svg">
                           													
                         												</div>
                       											</div>
-                      											<img class="divider-icon" alt="" src="Divider.svg">
+                      											<img class="divider-icon" alt="" src="./Images/Divider.svg">
                       											
                     										</div>
                     										<div class="container2">
@@ -612,11 +613,11 @@
                           													</div>
                         												</div>
                         												<div class="buttonsbutton-wrapper">
-                          													<img class="arrow-left-icon" alt="" src="dots-vertical.svg">
+                          													<img class="arrow-left-icon" alt="" src="./Images/Dropdown.svg">
                           													
                         												</div>
                       											</div>
-                      											<img class="divider-icon" alt="" src="Divider.svg">
+                      											<img class="divider-icon" alt="" src="./Images/Divider.svg">
                       											
                     										</div>
                     										<div class="container2">
@@ -674,21 +675,21 @@
                       											</div>
                     										</div>
                     										<div class="buttonsbutton-wrapper">
-                      											<img class="arrow-left-icon" alt="" src="dots-vertical.svg">
+                      											<img class="arrow-left-icon" alt="" src="./Images/Dropdown.svg">
                       											
                     										</div>
                   									</div>
-                  									<img class="divider-icon" alt="" src="Divider.svg">
+                  									<img class="divider-icon" alt="" src="./Images/Divider.svg">
                   									
                 								</div>
                 								<div class="container8">
-                  									<img class="image-6-icon" alt="" src="image 6.png">
+                  									<img class="image-6-icon" alt="" src="./Images/image 6.png">
                   									
                   									<div class="buttonsbutton5">
                     										<div class="text-padding">
                       											<div class="text9">View on Map</div>
                     										</div>
-                    										<img class="arrow-left-icon" alt="" src="link-external-02.svg">
+                    										<img class="arrow-left-icon" alt="" src="./Images/link-external-02.svg">
                     										
                   									</div>
                   									<div class="charts6">
@@ -770,9 +771,9 @@
                       											</div>
                     										</div>
                   									</div>
-                  									<img class="expand-05-icon" alt="" src="expand-05.svg">
+                  									<img class="expand-05-icon" alt="" src="./Images/expand-05.svg">
                   									
-                  									<img class="image-7-icon" alt="" src="image 7.png">
+                  									<img class="image-7-icon" alt="" src="./Images/image 7.png">
                   									
                 								</div>
               							</div>
