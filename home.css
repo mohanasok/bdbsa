@@ -1676,6 +1676,10 @@
   	font-family: Inter;
 }
 
+.active{
+	background-color: #014437;
+	color: #fff;
+}
 
 html, body {
   	margin: 0;

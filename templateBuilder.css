@@ -1531,7 +1531,9 @@
   	font-family: Inter;
 }
 
-
+.multi, .metric-item5{
+	padding-bottom: 40px;
+}
 body {
   	margin: 0;
   	line-height: normal;

@@ -962,6 +962,10 @@
   	font-family: Inter;
 }
 
+.active{
+	background-color: #014437;
+	color: #fff;
+}
 
 body {
   	margin: 0;
