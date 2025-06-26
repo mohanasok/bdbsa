@@ -278,6 +278,7 @@
   	background-size: cover;
   	background-repeat: no-repeat;
   	background-position: top;
+	cursor: pointer;
 }
 .container {
   	align-self: stretch;
@@ -1222,6 +1223,10 @@
 .active{
 	background-color: #014437;
 	color: #fff;
+}
+
+.nav-item-base4, .nav-item-base{
+	cursor: pointer;
 }
 
 body {
